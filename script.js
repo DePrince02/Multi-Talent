@@ -18,7 +18,8 @@ function photo()
 }
 function paint()
 {
-    alert(`PAINTING COMPITITION :
+    alert(`
+    PAINTING COMPITITION :
 
     • Candidates should bring their own stationery material, colours etc. 
 
@@ -32,7 +33,9 @@ function paint()
 }
 function video()
 {
-    alert(`SHORT VIDEO COMPETITION
+    alert(`
+    
+SHORT VIDEO COMPETITION
 
 1. It is a team-based event (3 - 4 members per team) 
 
