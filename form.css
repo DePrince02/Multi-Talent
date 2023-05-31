@@ -1,0 +1,87 @@
+body{
+    background-attachment: fixed;
+    margin:0;
+    background-color: #526D82;
+}
+
+#form{
+    width:800px;
+    margin:30px auto 0 auto;
+    background-color: #2f4a70;
+    border-radius: 5px;
+    padding:30px;
+    color: #DDE6ED;
+    font-weight: bolder;
+}
+
+h1{
+    text-align: center;
+    color:#DDE6ED;
+}
+
+#form button{
+    color:black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:10px;
+    margin:20px 0px;
+    font-size:20px;
+    width:100%;
+}
+#ad
+{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+#ad input
+    {
+        border-radius: 5px;
+        font-size:20px;
+        height: 150px;
+        margin-top:5px;
+        padding:10px;
+        border:1px solid rgb(34,193,195) ;
+    }
+
+.input-group{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size:20px;
+    margin-top:5px;
+    padding:10px;
+    border:1px solid rgb(34,193,195) ;
+}
+
+.input-group input:focus{
+    outline:0;
+}
+
+.input-group .error{
+    color:rgb(242, 18, 18);
+    font-size:16px;
+    margin-top: 5px;
+}
+
+.input-group.success input{
+    border-color: #0cc477;
+}
+
+.input-group.error input{
+    border-color:rgb(206, 67, 67);
+}
+button:hover
+{
+    
+    background-color: #0cc477;
+}
+button
+{
+    font-weight: bolder;
+    background-color: #73dfb2;
+}

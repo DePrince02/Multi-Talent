@@ -1,0 +1,266 @@
+body
+{
+    margin: 0;
+    background-color:#526D82;
+}
+*
+{
+    box-sizing: border-box;
+}
+
+#Wrapper
+{
+    min-height: 600px ;
+}
+#ht
+{
+    top:0;
+    position:sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #27374D;
+}
+#het
+{
+    color: #DDE6ED;
+}
+#head
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#head2
+{
+    flex: 3;
+    display: flex;
+    gap: 25px;
+    justify-content: center ;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+li
+{
+    display: inline-block;
+}
+a
+{
+    text-decoration: none;
+    color: #DDE6ED;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+a:hover
+{
+    color: black;
+}
+#cnt
+{
+    min-height: 350px;
+}
+#abt1
+{
+    height: 50px;
+    width: 100%;
+    color: #DDE6ED;
+    margin-top: 30px;
+    background-color: #5a97c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#abt2
+{
+    display: flex;
+    color:black;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom: 50px;
+}
+#eve
+{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #DDE6ED;
+    margin-bottom: 50px;
+    background-color: #5a97c5;
+}
+#main
+{
+    min-height: 600px;
+    width: 100% ;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+#stalk
+{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    background-color: #2f4a70;
+    width: 100%;
+}
+#sthead
+{
+    background-color: #5a97c5;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#stmain
+{
+    background-color:#526D82;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+}
+.st
+{
+    height: 300px;
+    width: 500px;
+    background-color: #DDE6ED;
+}
+.event
+{
+height: 300px;
+width: 400px;
+background-color: rgb(255, 176, 176);
+
+}
+.ev1
+{
+    height: 80%;
+    width: 100%;
+    background-color: #27374D;
+}
+.btn
+{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #526D82;
+}
+button
+{
+    background-color: #27374D;
+    color: #DDE6ED;
+    height: 40px;
+    width: 300px;
+    font-weight: bolder;
+}
+button:hover
+{
+    background-color: #2f4a70;
+}
+#Tell
+{
+    min-height: 800px;
+    width: 100%;
+    background-color: #27374D;
+    padding-top: 30px;
+}
+#t1
+{
+
+    border: 2px solid #27374D;
+    margin: 30px;
+    min-height: 60%;
+    background-color: #5a97c5;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.h
+{
+    color: #DDE6ED;
+}
+#t2
+{
+    margin: 50px;
+    padding: 10px;
+    padding-top: 0;
+}
+#Contact
+{
+    margin-top: 30px;
+    background-color:#27374D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    gap: 20px;
+    width: 100%;
+}
+#b
+{
+    margin-top: 30px;
+    background-color: green;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bolder;
+    width: 200px;
+}
+#c1
+{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5a97c5;
+    width: 100%;
+}
+#c2
+{
+    background-color: #27374D;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#c3
+{
+    display: flex;
+    height: 110px;
+    background-color: #27374D;
+    justify-content: center;
+    align-items: center;
+}
+
+#fb
+{
+    color: rgb(86, 86, 255);
+}
+#tw
+{
+    color: deepskyblue;
+}
+#in
+{
+    color: deeppink;
+}
